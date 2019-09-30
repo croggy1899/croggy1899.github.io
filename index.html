@@ -1,208 +1,66 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>E3 Expo</title>
-        
-        <!-- MY CSS -->
-        <link rel="stylesheet" href="css/styles.css">
-        
-        <!-- Flexbox CSS -->
-        <link rel="stylesheet" href="css/flexboxgrid.min.css">
-        
-        <script src="slideshow.js">
-        </script>
-        
+<head>
+    <Title>Kye</Title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/960_12_col.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
     </head>
-     
-    <body>
+    
+<body>
+    
+    
+        <div id="headz" class="grid_12">
         <header>
-            <div class="wrap container-fluid">
-            <div class="row">
-                <div class="col-xs-3 col-md-3">
-            <img class="dropdown" src="images/dropdown.png">
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-3">
-            <img class="logo" src="images/e3.png">
-                </div>
-                <div class="col-xs-3 col-md-3">
-                    <img class="badge" src="images/badgeButton.png">
-                </div>
+            <a href="index.html"><img src="images/name.png" alt="Luca Crognale-Manzoli"></a>  
+                </header>    
+        <nav>
+        <ul>
+            <li><a href="https://www.instagram.com/croggy1899/" target="_blank"><img src="images/icons/iconmonstr-instagram-11-120.png"></a></li>
+            <li><a href="https://twitter.com/croggy1899" target="_blank"><img src="images/icons/iconmonstr-twitter-1-120.png"></a></li>
+            <li><a href="https://www.youtube.com/user/croggy1899" target="_blank"><img src="images/icons/iconmonstr-youtube-6-120.png"></a></li>
+            <li><a href="https://www.twitch.tv/croggylive" target="_blank"><img src="images/icons/iconmonstr-twitch-1-120.png"></a></li></ul>
+        </nav>
+            <div id="navigator">
+            <nav>
+            <ul>
+                <li><a href="work.html">My Work</a></li>
+                <li><a href="wips.html">Works in Progress</a></li>
+                <li><a href="live.html">My Livestream</a></li>
+                <li><a href="inspire.html">My Inspirations</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+            </div>
             
-            </div>
-            </div>
-        </header>
-        <article>
-          <div class="slideshow">
-          <div class="wrap container-fluid">
-           <div class="row">
-           <div class="col-xs-12">
-           <div class="slides fade">
-           <div class="numbers">1/3</div>
-               <img class="showfloor" src="images/showfloor1.jpg">
-               </div>
-               
+    </div>
+    
+        <div class="clear"></div>
+    <div class="container_12 clearfix">
+        
+        <div id="bg">
+        
+        <section class="grid_12 alpha">
+        
+            <h1 class="grid_12">WHO AM I?</h1>
+              
+            <p class="grid_12">Hey there! My name is Luca and I'm an amateur web designer and motion artist/video editor. This website will act as my "home base", if you will. It will house some of the projects that I have worked on over the course of my time at school, as well as projects I'm working on outside of my class time. Some examples are motion graphics video intros, edited videos, websites and a bit of graphics work here and there. You can also find some things that inspire some of my work. Take a look around, it's completely free!</p>
+            </section>
+        
+       
+        
+        <div class="clear"></div>
+        
+      
             
-               
-          <div class="slides fade">
-              <div class="numbers">2/3</div>
-               <img class="showfloor" src="images/showfloor2.jpg">
-               </div>
-               
-          <div class="slides fade">
-             <div class="numbers">3/3</div> 
-               <img class="showfloor" src="images/showfloor3.jpg">
-               </div>
-               
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-               </div>
-              </div>
-            </div>
-            </div>
-               </article>
-                             <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
-<br>
- 
-               
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("slides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-    
-    
-}
-</script>
-        
-        <div class="wrap container-fluid">
-            <div class="row">
-                <div class="col-xs-6 col-sm-4">
-                    <figure>
-                        <img class="reee" src="images/luiggi.jpg" >
-                    </figure>
-                </div>
-                <div class="col-xs-6 col-sm-4">
-                    <figure>
-                        <img class="reee" src="images/luiggi.jpg" >
-                    </figure>
-                </div>
-                <div class="col-xs-6 col-sm-4">
-                    <figure>
-                        <img class="reee" src="images/luiggi.jpg" >
-                    </figure>
-                </div>
-                <div class="col-xs-6 col-sm-4">
-                    <figure>
-                        <img class="reee2" src="images/showfloor2.jpg" >
-                    </figure>
-                </div>
-                <div class="col-xs-6 col-sm-4">
-                    <figure>
-                        <img class="reee2" src="images/showfloor2.jpg" >
-                    </figure>
-                </div>
-                <div class="col-xs-6 col-sm-4">
-                    <figure>
-                        <img class="reee2" src="images/showfloor2.jpg" >
-                    </figure>
-                </div>
-            </div>
+            <div class="clear"></div>
+            
+            <footer><b>&copy; Luca Crognale-Manzoli 2018</b>
+            <p>All images and logos belong to their respective owners</p>
+            </footer>
+            
         </div>
-        <article>
-            <div class="wrap container-fluid">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-8">
-                        <h3 class="aboutTitle">
-                            About Us
-                        </h3>
-                        <p class="aboutArticle">E3 is the world’s premier event for computer and video games and related products. At E3, the video game industry’s top talent pack the Los Angeles Convention Center, connecting tens of thousands of the best, brightest, and most innovative in the interactive entertainment industry. For three exciting days, leading-edge companies, groundbreaking new technologies, and never-before-seen products will be showcased. E3 connects you with both new and existing partners, industry executives, gamers, and social influencers providing unprecedented exposure to the entire video game industry, all under one roof.</p>
-                    </div>
-                </div>
-            </div>
-        </article> 
-              
-            <br>
-        
-        <div class="faqBackground">
-              
-<button class="faqMobile">I have pre-registered. When will I receive my badge?</button>
-<div class="panel">
-    <p>E3 Attendee Badges will <b>NOT</b> be mailed prior to the show, and must be picked up at the Convention Center. Attendees must show government issued ID upon entry.</p>
-</div>
-<br>
-<button class="faqMobile">What is E3?</button>
-<div class="panel">
-  <p>E3 is the world’s premier event for computer and video games and related products. The show is owned by the Entertainment Software Association (ESA), the US association dedicated to serving the business and public affairs needs of the companies developing and publishing interactive games for video game consoles, handheld devices, personal computers, and the internet.</p>
-</div>
-<br>
-<button class="faqMobile">Is the show open to the public?</button>
-<div class="panel">
-  <p>Yes.  E3 is open to gamers on a first-come, first served basis and passes are limited.<br>
-<br>
-Industry professionals who are able to document their direct and current professional affiliation to the interactive entertainment industry may qualify for a complimentary industry pass.</p>
-</div>
-<br>
-<button class="faqMobile">When and where is E3 2019?</button>
-<div class="panel">
-  <p>E3 is scheduled to take place June 11-15, 2019, at the Los Angeles Convention Center.  Click here for show hours.
-<br><br>
-The Los Angeles Convention Center is located at the intersection of the Santa Monica and Harbor Freeways.
-<br><br>
-Los Angeles Convention Center<br>
-1201 South Figueroa Street<br>
-Los Angeles, California 90015<br>
-Phone: 213-741-1151<br>
-Fax: 213-765-4266</p>
-</div>              
-    <br>           
-<button class="faqMobile">Do you check identification on-site?</button>
-<div class="panel">
-  <p>All E3 attendees will be required to show a government issued photo ID (driver’s license or passport) in order to pick up their badges and holders on-site to gain access to the event. Do not use a fictitious name. The name on your ID and the name on your badge must be the same. E3 Show Management and/or E3 Security Officers may request attendees show ID at any time.</p>
-</div>
-<br>
-<script>
-var acc = document.getElementsByClassName("faqMobile");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("actives");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    }
-  });
-}
-</script>  
-        </div>
+    </div>
 </body>
 </html>

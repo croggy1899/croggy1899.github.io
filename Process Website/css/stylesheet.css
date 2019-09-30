@@ -1,0 +1,65 @@
+body {
+    width: auto;
+    margin: auto;
+}
+
+header {
+    font-family: "Argon";
+    font-size: 75px;
+    text-align: center;
+    background-color: darkgray;
+    color: white;
+}
+
+nav {
+    text-decoration: none;
+    text-align: center;
+}
+
+ul {
+    font-family: "Helvetica Neue", sans-serif;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    background-color: darkgray;
+}
+
+li {
+    display: inline;
+    font-size: 11pt;
+    align-content: center;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px 22.19px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.wrapper {
+    margin: auto;
+    width: 960px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.project2b a {
+    color: black;
+    text-decoration: none;
+}
+
+.project2c a {
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,414 @@
+body, html {
+    height: 100%;
+    width: auto;
+    margin: auto;
+}
+
+.bg {
+    background-image: url("background.jpg");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow-x: hidden;
+    width: auto;
+}
+
+#lander img {
+    float: left;
+    height: 60%;
+    width: auto;
+}
+
+#sectionland p {
+    font-family: "Montserrat-ExtraBold", sans-serif;
+    font-size: 136px;
+    margin-top: 0px;
+    text-align: center;
+    line-height: 50px;
+}
+
+#logo {
+    padding-top: 8px;
+}
+
+#logo img {
+   height: auto;
+    width: 100px;
+}
+
+#header2 {
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+#header2 h1 {
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+}
+
+nav {
+    position: relative;
+    margin-top: 0px;
+    font-family: 'Montserrat-Regular', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    width: 480px;
+    font-family: 'Montserrat-Regular', sans-serif;
+}
+
+li {
+    display: inline;
+    font-size: 14px;
+}
+
+li a.active {
+    color: orange;
+}
+
+#feature img {
+    width: 100%;
+    height: auto;
+   padding-top: 10px;
+}
+
+section {
+    line-height: 38px;
+    font-size: 16px;
+    font-family: 'Montserrat-Regular', sans-serif;
+    padding-bottom: 20px; 
+}
+
+#founders {
+    margin-top: 25px;
+    margin-right:0px;
+    padding-left:10px; 
+}
+
+#who {
+    margin-top: 25px;
+    margin-right:0px;
+    padding-left:10px; 
+}
+
+/*Keep note of the padding-bottom CSS line and get rid of it if necessary on both #founders and #whats*/
+
+
+#whats {
+     margin-right:0px;
+    padding-left:10px;
+    margin-top: 25px;
+}
+
+#artists img {
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
+}
+
+#header3 {
+    font-size: 36px;
+    width: 960px;
+    padding-top: 15px;
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+}
+
+#nav6 ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav6 li {
+    display: block;
+    width: 60px;
+    font-size: 20px;
+    line-height: 40px;
+    padding-top: 10px;
+}
+
+#nav7 ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav7 li {
+    display: block;
+    width: 60px;
+    font-size: 20px;
+    line-height: 40px;
+    padding-top: 10px;
+}
+
+#nav8 ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav8 li {
+    display: block;
+    width: 60px;
+    font-size: 20px;
+    line-height: 40px;
+    padding-top: 10px;
+}
+
+#nav6, #nav7, #nav8 ul {
+    margin-bottom: 12px;
+    width: 220px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    text-decoration: none;
+   color: orange;
+}
+
+#featuredrelease {
+    margin-top: 60px;
+}
+
+#featuredrelease img {
+    width: auto;
+    height: 360px;
+}
+
+#header8 {
+    font-size: 14px;
+    font-family: "Montserrat-ExtraBold", sans-serif;
+    margin-top: 60px;
+    color: black;
+    position: relative;
+}
+
+#header8 h2 {
+    font-size:72px;
+    line-height: 20px;
+    margin-top: 40px;
+}
+
+#section8 p {
+    font-size: 36px;
+    font-family: "Montserrat-Regular", sans-serif;
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+
+#section9 p {
+    font-size: 18px;
+    font-family: "Montserrat-Regular", sans-serif;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+#section10 a {
+    text-decoration: none;
+}
+
+#section10 p:hover {
+    background-color: black;
+    font-size: 18px;
+}
+
+#section10 p {
+    background-color: indianred;
+    width: 96px;
+    height: 40px;
+    text-align: center;
+    font-family: "Montserrat-ExtraBold", sans-serif;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding-top: 18px;
+    font-size: 16px;
+
+}
+
+#section11 {
+    margin-top: 30px;
+}
+
+#section11 #header9 {
+    font-family: "Montserrat-ExtraBold", sans-serif;
+    font-size: 26px;
+}
+
+#miles {
+    margin-top: 25px;
+}
+
+#miles a.rollover {
+    display: block;
+    width: 209px;
+    height: 210px;
+    text-decoration: none;
+    background: url("../images/rollovermewn.gif");
+    background-size:cover;
+}
+
+#miles a.rollover:hover {
+    background-position: -210px 0px;
+}
+
+#triumph {
+    margin-top: 25px;
+}
+
+#triumph a.rollover {
+    display: block;
+    width: 209px;
+    height: 210px;
+    text-decoration: none;
+    background: url("../images/daredevilrollover.gif");
+    background-size:cover;
+}
+
+#triumph a.rollover:hover {
+    background-position: -210px 0px;
+}
+
+#toget {
+    margin-top: 25px;
+}
+
+#toget a.rollover {
+    display: block;
+    width: 209px;
+    height: 210px;
+    text-decoration: none;
+    background: url("../images/rolloverthing.gif");
+    background-size:cover;
+}
+
+#toget a.rollover:hover {
+    background-position: -210px 0px;
+}
+
+#wired {
+    margin-top: 25px;
+}
+
+#wired a.rollover {
+    display: block;
+    width: 209px;
+    height: 210px;
+    text-decoration: none;
+    background: url("../images/wiredrollover.gif");
+    background-size:cover;
+}
+
+#wired a.rollover:hover {
+    background-position: -210px 0px;
+}
+
+#submit {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left:0px;
+    
+}
+
+#submit img {
+    width: 230px;
+    height: auto;
+}
+
+#submission {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#submission p {
+    font-size: 18px;
+    line-height: 26px;
+    width: 230px;
+    margin-top: 8px;
+    font-family: 'Montserrat-Regular', sans-serif;
+}
+
+#header4 {
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+    font-size: 36px;
+}
+
+#section5 p {
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 24px;
+    width: 950px;
+}
+
+#boxes {
+    width: 980px;
+}
+
+#section12 p {
+    margin-top: 100px;
+    font-size: 36px;
+    font-family: 'Montserrat-Regular', sans-serif;
+}
+
+#shop img {
+    width: 900px;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+#section18 {
+    position: relative;
+margin-bottom: 100px;
+}
+
+#section18 a {
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+
+#section18 p:hover {
+    background-color: black;
+    font-size: 18px;
+}
+
+#section18 p {
+    background-color: indianred;
+    width: 96px;
+    height: 40px;
+    text-align: center;
+    font-family: "Montserrat-ExtraBold", sans-serif;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 18px;
+    font-size: 16px;
+}
+
+
+footer {
+    width: 950px;
+    margin-top: 6px;
+    position: static;
+    bottom: 0px;
+}
+
+footer img {
+width: 210px;
+    height: 48px;
+    padding-top: 4px;
+    padding-left: 400px;
+}
+
+footer p {
+padding-top: 2px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    
+}

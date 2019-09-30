@@ -1,0 +1,337 @@
+    body, html, #bg {
+    background-color: blueviolet;
+    margin: 0px;
+    height: 100%;
+    width: auto;
+     background-image:url(whitebackground.png);
+    background-position:left;
+    background-repeat:repeat-x;
+    background-size:cover;
+    overflow-x: hidden;
+}
+
+#bg {
+    margin-top: 20px;
+}
+    
+#headz {
+    background-color: blueviolet;
+    height: 315px;
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+#headz header img {
+    width: 480px;
+    height: auto;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#headz nav ul {
+text-align: center;
+    margin-top: 0px;
+}
+
+#headz nav ul li img {
+    width: 30px;
+    height: auto;  
+    margin-right: 35px;
+}
+
+li {
+padding: 2px auto 0px;
+    display: inline-block;
+}
+
+#navigator nav ul li {
+    padding: 2px auto 0px;
+    display: inline-block;
+     width: 180px;
+    height: auto;  
+    text-align: center;
+}
+
+#navigator ul {
+    margin-right: 40px;
+}
+
+#navigator li a{
+     list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+#navigator li a:hover {
+text-decoration: underline;
+}
+
+#navigator li a.active {
+    text-decoration: underline;
+}
+
+#navigator {
+    font-family: "Montserrat-Regular", sans-serif;
+    color: white;
+}
+
+
+section {
+    width: 940px;
+    height: auto;
+    color: black;
+}
+
+h1 {
+    font-family: "Montserrat-ExtraBold", sans-serif;
+    font-size: 36px;
+}
+
+section p {
+    margin-top: 12px;
+    font-family: "Monsterrat-Regular", sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+section h2 {
+    font-family: "Montserrat-ExtraBold", sans-serif;
+}
+
+#p2 p {
+    font-size: 18px;
+}
+
+/*#selfie img {
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 415px;
+    height: 456.25px;
+    
+}*/
+
+#nav2{
+    color: black;
+}
+
+#nav2 ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    position: relative;
+}
+
+#nav2 nav ul li {
+    width: 960px;
+    }
+
+#nav2 li a {
+    display: inline-block;
+    font-family: "Montserrat-Regular", sans-serif;
+    text-decoration: none;
+    color: black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: white;
+}
+
+#nav2 li a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+#nav3{
+    color: black;
+}
+
+#nav3 ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    position: relative;
+}
+
+#nav3 nav ul li {
+    width: 940px;
+    }
+
+#nav3 li a {
+    display: inline-block;
+    font-family: "Montserrat-Regular", sans-serif;
+    text-decoration: none;
+    color: black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: white;
+}
+
+#nav3 li a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+#nav4{
+    color: black;
+}
+
+#nav4 ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    position: relative;
+}
+
+#nav4 nav ul li {
+    width: 940px;
+    }
+
+#nav4 li a {
+    display: inline-block;
+    font-family: "Montserrat-Regular", sans-serif;
+    text-decoration: none;
+    color: black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: white;
+}
+
+#nav4 li a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: white;
+    width: 950px;
+    margin-top: 50px;
+    line-height: 5px;
+    font-family: "Montserrat Alternates", sans-serif;
+    position: static;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+}
+
+
+
+iframe {
+    margin-top: 30px;
+}
+
+#chat iframe {
+    margin-top: 24px;
+}
+
+#img1 img {
+margin-left: 0px;
+    width: 100%;
+    height: auto;
+    
+}
+
+#img2 img {
+margin-left: 0px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#img3 img {
+margin-left: 0px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#img4 img {
+margin-left: 0px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#story p, #night p, #kuuro p, #lvther p, #friends p, #everything p, #vanze p, #questions p {
+    font-size: 14px;
+    font-family: "Montserrat-ExtraBold", sans-serif;
+    margin-left: 0px;
+}
+
+#everything img {
+    width: 220px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#questions img {
+    width: 220px;
+    height: auto;
+    margin-right: 10px; 
+    
+}
+
+#night img {
+    width: 220px;
+    height: auto;
+    margin-right: 10px; 
+    
+}
+
+#story iframe, #night img, #kuuro iframe, #everything img {
+    margin-top: 20px;
+}
+
+
+#vanze iframe, #friends iframe, #lvther iframe {
+    margin-top: 2px;
+}
+
+#wimages img {
+    width: 310px;
+    height: auto;
+    margin-top: 12px;
+    margin-right: 60px;
+    padding-right: 20px;
+}
+
+#starparagraph {
+    line-height: 25px;  
+}
+
+#offtopic {
+    margin-top: 0px;
+}
+
+#foot footer p {
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 14px;
+}
+
+#foot footer {
+    margin-top: 35px;
+    position: static;
+}
+
+#footz footer{
+    margin-top: 35px;
+    bottom: 0px;
+    position: static;
+}
+
+.esports {
+    width: 28%;
+    height: auto;
+}
