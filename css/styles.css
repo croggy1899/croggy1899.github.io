@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,700i,900i&display=swap');
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.dropdown {
+   width: 3rem;
+    margin: auto;
+    padding-top: 1.15rem;
+}
+
+.badge {
+   width: 100%;
+    padding-top: 1.5rem;
+}
+
+.logo {
+    height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5rem;
+}
+
+.slideshow {
+    align-content: center;
+    max-width: 100%;
+    position: relative;
+}
+
+.slides {
+    display: none;
+    max-width: 100%;
+    height: auto;
+}
+
+.showfloor {
+     max-width: 100%;
+    height: auto;
+    align-content: center;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: ghostwhite;
+    font-weight: bold;
+    font-size: 22px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 2rem;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.9)
+}
+
+.numbers {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+} 
+
+ .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 25%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+} 
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.reee, .reee2 {
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.aboutArticle, .aboutTitle {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aboutArticle {
+    font-weight: 400;
+}
+
+.aboutTitle {
+    font-weight: 900;
+    font-style: italic;
+}
+
+@media screen and (min-width: 768px) {
+    .reee2 {
+        display: none;
+    }
+}
+
+.faqMobile {
+   font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  background-color: white;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.faqMobile:hover {
+    background-color: lightgray;
+}
+
+.actives {
+  background-color: darkgray;
+}
+
+.panel {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.faqMobile:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+  font-style: normal;
+}
+
+.actives:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.faqBackground {
+    background-color: grey;
+}
